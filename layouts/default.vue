@@ -52,14 +52,14 @@ useHead({
 script: [
     {
     async: true,
-    src: 'https://www.googletagmanager.com/gtag/js?id=G-1GNCCCBG59',
+    src: 'https://www.googletagmanager.com/gtag/js?id=G-1DJ3VFPTDK',
     },
     {
     innerHTML: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-1GNCCCBG59');
+        gtag('config', 'G-1DJ3VFPTDK');
     `,
     type: 'text/javascript',
     },
